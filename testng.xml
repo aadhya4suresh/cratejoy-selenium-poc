@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="5" name="Cratejoy" annotations="JDK"
+	parallel="classes">
+
+	<listeners>
+		<listener class-name="cj.utilities.TestngListener" />
+	</listeners>
+	<!-- To run entire tests in linear mode -->
+
+	<test name="RunTests">
+
+		<parameter name="BrowserName" value="chrome" />
+		<groups>
+			<run>
+				<exclude name="Exclude"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<!--<class name="sc.testSuite.LoginTestCases" /> -->
+			<!--<class name="sc.testSuite.DashboardTestCases"/> -->
+			<class name="cj.testSuite.CratejoyTestCases" />
+			
+		</classes>
+	</test>
+</suite>
