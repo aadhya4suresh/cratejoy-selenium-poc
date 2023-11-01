@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="sc.testSuite.POShipmentTestCases">
+        <methods>
+          <include name="TC_0058_createShipmentWithIndividualAndSPD"/>
+          <include name="TC_0061_verifyTheAddedUnitsValue"/>
+          <include name="TC_0064_verifyTheInvoiceEAValue"/>
+          <include name="TC_0060_addItemsToTheShipmentAndVerify"/>
+          <include name="TC_0066_verifyTheInvoiceEACost"/>
+          <include name="setUp"/>
+          <include name="TC_0057_createShipmentWithCasePackedAndLTL"/>
+          <include name="TC_0059_createShipmentWithIndvidualAndLTL"/>
+          <include name="TC_0063_verifyTheInvoiceCSValue"/>
+          <include name="TC_0065_verifyTheReceivedCSValue"/>
+          <include name="TC_0066_verifyTheReceivedEAValue"/>
+          <include name="TC_0056_createShipmentWithCasePackedAndSPD"/>
+          <include name="TC_0055_verifyShipmentSection"/>
+          <include name="TC_0062_verifyTheSuggestedASINQuantityValue"/>
+          <include name="TC_0067_submitPlanAndVerifyThatAmazonshipmentIsCreatedWithoutOptimization"/>
+          <include name="intialize"/>
+          <include name="TC_0066_verifyTheInvoiceCSCost"/>
+          <include name="tearDown"/>
+          <include name="TC_0068_submitPlanAndVerifyThatAmazonshipmentIsCreatedWithOptimization"/>
+        </methods>
+      </class> <!-- sc.testSuite.POShipmentTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

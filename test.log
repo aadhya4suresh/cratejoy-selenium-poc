@@ -1,0 +1,36 @@
+Nov 01, 2023 10:19:31 AM cj.utilities.CustomLogger logInfo
+INFO: Test started
+Nov 01, 2023 10:19:38 AM cj.utilities.CustomLogger logInfo
+INFO: Cratejoy Page is displayed
+Nov 01, 2023 10:19:40 AM cj.utilities.CustomLogger logInfo
+INFO: Discount Popup is closed
+Nov 01, 2023 10:19:41 AM cj.utilities.CustomLogger logInfo
+INFO: Best seller link is displayed
+Nov 01, 2023 10:19:47 AM cj.utilities.CustomLogger logInfo
+INFO: Best seller link is clicked
+Nov 01, 2023 10:19:48 AM cj.utilities.CustomLogger logInfo
+INFO: Best seller Page is displayed
+Nov 01, 2023 10:19:49 AM cj.utilities.CustomLogger logInfo
+INFO: Product Text is captured from the Product page
+Nov 01, 2023 10:19:58 AM cj.utilities.CustomLogger logInfo
+INFO: Clicked on the Product link
+Nov 01, 2023 10:20:00 AM cj.utilities.CustomLogger logInfo
+INFO: 1 Month plan is selected
+Nov 01, 2023 10:20:01 AM cj.utilities.CustomLogger logInfo
+INFO: Captured the Price from the Plan page
+Nov 01, 2023 10:20:02 AM cj.utilities.CustomLogger logInfo
+INFO: Captured the Text after click on the Product link
+Nov 01, 2023 10:20:03 AM cj.utilities.CustomLogger logInfo
+INFO: Selected product verified successfully
+Nov 01, 2023 10:20:05 AM cj.utilities.CustomLogger logInfo
+INFO: Clicked on Add To Cart button
+Nov 01, 2023 10:20:06 AM cj.utilities.CustomLogger logInfo
+INFO: Captured the Price from the Cart page
+Nov 01, 2023 10:20:07 AM cj.utilities.CustomLogger logInfo
+INFO: Item Added to the Cart successfully
+Nov 01, 2023 10:20:15 AM cj.utilities.CustomLogger logInfo
+INFO: Clicked on Secured checkout button
+Nov 01, 2023 10:20:16 AM cj.utilities.CustomLogger logInfo
+INFO: Captured the Price from the Checkout page
+Nov 01, 2023 10:20:17 AM cj.utilities.CustomLogger logInfo
+INFO: Item Added to the Checkout page successfully
